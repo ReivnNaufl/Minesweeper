@@ -127,14 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BackEnd.cpp" />
-    <ClCompile Include="FrontEnd.cpp" />
-    <ClCompile Include="Minesweeper.cpp" />
+    <ClCompile Include="Minesweeper\BackEnd.cpp" />
+    <ClCompile Include="Minesweeper\FrontEnd.cpp" />
+    <ClCompile Include="Minesweeper\Minesweeper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BackEnd.h" />
-    <ClInclude Include="FrontEnd.h" />
-    <ClInclude Include="Struct.h" />
+    <ClInclude Include="Minesweeper\BackEnd.h" />
+    <ClInclude Include="Minesweeper\FrontEnd.h" />
+    <ClInclude Include="Minesweeper\Struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

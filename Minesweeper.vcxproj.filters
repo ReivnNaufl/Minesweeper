@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Minesweeper.cpp">
+    <ClCompile Include="Minesweeper\BackEnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FrontEnd.cpp">
+    <ClCompile Include="Minesweeper\FrontEnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BackEnd.cpp">
+    <ClCompile Include="Minesweeper\Minesweeper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Struct.h">
+    <ClInclude Include="Minesweeper\BackEnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BackEnd.h">
+    <ClInclude Include="Minesweeper\FrontEnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FrontEnd.h">
+    <ClInclude Include="Minesweeper\Struct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
